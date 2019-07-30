@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        tools:context=".SecondActivity">
+
+    <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="10dp"
+            android:shrinkColumns="*"
+            android:stretchColumns="*" >
+
+        <TableRow
+                android:id="@+id/tableRowBtn"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:paddingBottom="10dp"
+        >
+            <TextView
+                    android:id="@+id/txa"
+                    android:text=""
+                    android:padding="2dp">
+            </TextView>
+
+            <Button
+                    android:id="@+id/btnAbout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_account_circle_black_24dp"
+                    android:gravity="center|center_horizontal"
+                    android:padding="1dp"
+                    android:text="ABOUT"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+            <TextView
+                    android:id="@+id/txb"
+                    android:text=""
+                    android:padding="2dp">
+            </TextView>
+            <TextView
+                    android:id="@+id/txc"
+                    android:text=""
+                    android:padding="2dp">
+            </TextView>
+
+            <Button
+                    android:id="@+id/btnSqlite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_library_books_black_24dp"
+                    android:gravity="center|center_horizontal"
+                    android:padding="1dp"
+                    android:text="DATA  SQLite"
+                    android:textStyle="bold"
+                    android:visibility="visible"/>
+            <TextView
+                    android:id="@+id/txd"
+                    android:text=""
+                    android:padding="2dp">
+            </TextView>
+        </TableRow>
+
+        <TableRow
+                android:id="@+id/tableRowBtn1"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:paddingBottom="10dp"
+        >
+            <TextView
+                    android:id="@+id/txa1"
+                    android:text=""
+                    android:padding="2dp">
+            </TextView>
+
+            <TextView
+                    android:id="@+id/txb1"
+                    android:text=""
+                    android:padding="2dp">
+            </TextView>
+
+            <TextView
+                    android:id="@+id/txc2"
+                    android:text=""
+                    android:padding="2dp">
+            </TextView>
+
+            <TextView
+                    android:id="@+id/txd3"
+                    android:text=""
+                    android:padding="2dp">
+            </TextView>
+        </TableRow>
+
+        <TableRow
+                android:id="@+id/tableRowBtn2"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal">
+
+            <TextView
+                    android:id="@+id/txi"
+                    android:text=""
+                    android:padding="2dp">
+            </TextView>
+
+            <TextView
+                    android:id="@+id/txe"
+                    android:text=""
+                    android:padding="2dp">
+            </TextView>
+
+            <TextView
+                    android:id="@+id/txf"
+                    android:text=""
+                    android:padding="2dp">
+            </TextView>
+
+            <TextView
+                    android:id="@+id/txg"
+                    android:text=""
+                    android:padding="2dp">
+            </TextView>
+        </TableRow>
+
+    </TableLayout>
+
+    <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+    />
+</RelativeLayout>
